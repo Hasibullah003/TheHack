@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="./images/tiktok.jpg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheHack Website</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 border-bottom fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-2" href="#">The<span class="text-primary">Hacks</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
+              <li class="nav-item">
+                <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#service">Fishing</a></li>
+                  <li><a class="dropdown-item" href="#service">Web Development</a></li>
+                  <li><a class="dropdown-item" href="#service">App Development</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#service">UI Development</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Our Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/hacker.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5>White Hat Hacker</h5>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/img6.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5>Grey Hat Hacker</h5>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/img3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5>Black Hat Hacker</h5>
+              
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </header>
+<section>
+    <div class="about my-5" id="About">
+        <div class="container">
+            <div class="text-center my-5">
+                <h1 data-aos="fade-up" data-aos-offset="150">About<span class="text-primary"> Me</span></h1>
+                <hr class="w-25 m-auto">
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-12" data-aos="zoom-in" data-aos-offset="175">
+                    <h1>What do you<span class="text-primary"> want to know?</span></h1>
+                    <p class="p-2">We would be very happy to talk about 
+                        your querries.<br> We are always there to help you.
+                    Our aim is to provide<br> you our best services and we work for your satisfaction...</p>
+                    <button type="button" class="btn btn-primary mb-5">know more</button>
+
+                    <div class="accordion" id="accordionExample" data-aos="zoom-in-left" data-aos-offset="175">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              My Dream
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>Being a Software Engineer</strong>, I wanna be the best in my field.<br>
+                              To let my dream come true a day, i never want to compromise with hard work.
+                              I always will give my 110% towards my work. Being a developer is my passion
+                              and i'm very passionate towards my passion.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              My Hobbies
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>Always looking for new things.</strong> I always want to do something new. I love surfing on internet
+                              to get some new ideas and knowledge.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              My Nature
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>Cool, Calm and helpful.</strong> My cool attitude makes me unique. I'm very calm.
+                              I always help needy people till where i can. One of my bad or good thing i don't know is that
+                              i trust the people easily.Plz don't keep expectations from others, bcoz <strong>Love doesn't hurt but the expectations do.</strong>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end" data-aos="fade-right" data-aos-offset="175">
+                    <img src="./images/hasib.jpeg" width="55%" class="img-fluid img-thumbnail" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services py-5 bg-light"  data-aos="fade-up" data-aos-offset="175" id="service">
+    <div class="container">
+        <div class="text-center">
+            <h1>Our<span class="text-primary"> Services</span></h1>
+            <hr class="w-25 m-auto">
+        </div>
+
+        <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div class="card">
+                <div class="card-body">
+                    <i class="fa fa-user bg-primary p-2 text-white rounded"></i>
+                  <h5 class="card-title">Web Development</h5>
+                  <p class="card-text">We have our best team to develop any Website.</p>
+                  <a href="#" class="btn btn-primary">know more...</a>
+                </div>
+              </div> </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div class="card-body">
+                <i class="fa fa-mobile bg-primary p-2 text-white rounded"></i>
+                <h5 class="card-title">App Development</h5>
+                <p class="card-text">We work on App development for Android/IOS.</p>
+                <a href="#" class="btn btn-primary">know more...</a>
+              </div> </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div class="card-body">
+                <i class="fa fa-user bg-primary p-2 text-white rounded"></i>
+                <h5 class="card-title">UI Development</h5>
+                <p class="card-text">Our team works for best UI Development services.</p>
+                <a href="#" class="btn btn-primary">know more...</a>
+              </div> </div>
+    </div>
+    </div>
+
+</section>
+    
+<section  class="team my-5 text-center" id="team" data-aos="zoom-in-left"
+data-aos-easing="ease-out-cubic"
+data-aos-duration="700">
+    <div class="container">
+        <div class="text-center">
+            <h1>Our<span class="text-primary">Team</span></h1>
+            <hr class="w-25 m-auto">
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card-body">
+                    <img src="./images/white jacket.jpeg" class="img-thumbnail  border border-primary pd-2">
+                    <h5 class="card-title mt-3">Hasib</h5>
+                    <p class="card-text"> People don't care about what you say, they care about what you build.</p>
+                    <a href="#" class="btn btn-primary">Read More...</a>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card-body">
+                    <img src="./images/DSC_0482.jpg" class="img-thumbnail  border border-primary pd-2">
+                    <h5 class="card-title mt-3">King</h5>
+                    <p class="card-text">The function of a good software is to make the complex appear to be simple.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card-body">
+                    <img src="./images/DSC_0499.jpg" class="img-thumbnail border border-primary pd-2">
+                    <h5 class="card-title mt-3">Raja</h5>
+                    <p class="card-text">Your most unhappy customers are your greatest source of learning.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                  </div>
+            </div>
+        </div>
+        </div>
+
+</section>
+<section class="contact py-5" id="contact" data-aos="fade-uo-right"
+data-aos-easing="ease-out-cubic"
+data-aos-duration="2000">
+    <div class="container">
+        <div class="text-center">
+            <h1>Feel free<span class="text-primary"> to connect</span></h1>
+            <hr class="w-25 m-auto">
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+                <form class="row g-3">
+                    <div class="col-md-12">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Address</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder=" ">
+                    </div>
+                   
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">City</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputState" class="form-label">State</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2">
+                      <label for="inputZip" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary block">submit</button>
+                    </div>
+                  </form>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end pd-4">
+                <img src="./images/black jacket.jpg" width="50%" class="img-fluid img-thumbnail p-2">
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+<div class="top"> <a class="float" href="#">
+  <i class="fa fa-arrow-up"></i>
+</a>
+</div>
+<!-- footer -->
+
+<div class="container-fluid bg-primary text-white pd-3 text-center fs">Developed By Hasib</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</body>
+</html>
